@@ -4,26 +4,28 @@
       <h2><%= pluralize(@book.errors.count, "error") %> prohibited this book from being saved:</h2>
 
       <ul>
-      <% @book.errors.full_messages.each do |msg| %>
-        <li><%= msg %></li>
+      <% @book.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
       <% end %>
       </ul>
     </div>
   <% end %>
 
-  <div class="field">
-    <%= f.label :title %><br>
-    <%= f.text_field :title %>
-  </div>
-  <div class="field">
-    <%= f.label :author %><br>
-    <%= f.text_field :author %>
-  </div>
-  <div class="field">
-    <%= f.label :read %><br>
-    <%= f.check_box :read %>
-  </div>
-  <div class="actions">
-    <%= f.submit %>
+  <div class="container">
+    <div class="form-group">
+      <%= f.label :title %><br>
+      <%= f.text_field :title, class: 'form-control' %>
+    </div>
+    <div class="form-group">
+      <%= f.label :author %><br>
+      <%= f.text_field :author, class: 'form-control' %>
+    </div>
+    <div class="form-group">
+      <%= f.label :read %><br>
+      <%= f.check_box :read, class: 'form-control' %>
+    </div>
+    <div class="actions">
+      <%= f.submit class: 'btn btn-large btn-primary' %>
+    </div>
   </div>
 <% end %>

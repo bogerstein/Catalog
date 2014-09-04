@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20130815002629) do
+ActiveRecord::Schema.define(version: 20140828213158) do
 
   create_table "books", force: true do |t|
     t.string   "title"
@@ -21,17 +21,22 @@ ActiveRecord::Schema.define(version: 20130815002629) do
     t.datetime "updated_at"
   end
 
-  create_table "games", force: true do |t|
+  create_table "movies", force: true do |t|
     t.string   "title"
-    t.string   "system"
-    t.boolean  "beat"
+    t.boolean  "sd"
+    t.boolean  "hd"
+    t.boolean  "threed"
+    t.boolean  "digital"
+    t.boolean  "watched"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
 
-  create_table "movies", force: true do |t|
+  create_table "video_games", force: true do |t|
     t.string   "title"
-    t.boolean  "watched"
+    t.string   "system"
+    t.boolean  "digital"
+    t.boolean  "beat"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

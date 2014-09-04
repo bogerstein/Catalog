@@ -4,22 +4,40 @@
       <h2><%= pluralize(@movie.errors.count, "error") %> prohibited this movie from being saved:</h2>
 
       <ul>
-      <% @movie.errors.full_messages.each do |msg| %>
-        <li><%= msg %></li>
+      <% @movie.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
       <% end %>
       </ul>
     </div>
   <% end %>
 
-  <div class="field">
-    <%= f.label :title %><br>
-    <%= f.text_field :title %>
-  </div>
-  <div class="field">
-    <%= f.label :watched %><br>
-    <%= f.check_box :watched %>
-  </div>
-  <div class="actions">
-    <%= f.submit %>
+  <div class="container">
+    <div class="form-group">
+      <%= f.label :title %><br>
+      <%= f.text_field :title, class: 'form-control' %>
+    </div>
+    <div class="form-group">
+      <%= f.label :sd %><br>
+      <%= f.check_box :sd, class: 'form-control' %>
+    </div>
+    <div class="form-group">
+      <%= f.label :hd %><br>
+      <%= f.check_box :hd, class: 'form-control' %>
+    </div>
+    <div class="form-group">
+      <%= f.label :threed %><br>
+      <%= f.check_box :threed, class: 'form-control' %>
+    </div>
+    <div class="form-group">
+      <%= f.label :digital %><br>
+      <%= f.check_box :digital, class: 'form-control' %>
+    </div>
+    <div class="form-group">
+      <%= f.label :watched %><br>
+      <%= f.check_box :watched, class: 'form-control' %>
+    </div>
+    <div class="actions">
+      <%= f.submit class: 'btn btn-large btn-primary' %>
+    </div>
   </div>
 <% end %>

@@ -1,10 +1,9 @@
-Catalog::Application.routes.draw do
-
+Rails.application.routes.draw do
   root 'welcome#index'
 
-  resources :games
-
   resources :movies
+
+  resources :video_games
 
   resources :books
 
@@ -48,7 +47,7 @@ Catalog::Application.routes.draw do
   #       get 'recent', on: :collection
   #     end
   #   end
-  
+
   # Example resource route with concerns:
   #   concern :toggleable do
   #     post 'toggle'
