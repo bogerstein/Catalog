@@ -1,0 +1,8 @@
+<tr>
+  <td><%= book.title %></td>
+  <td><%= book.author %></td>
+  <td><% if book.read %><div class="glyphicon glyphicon-ok"></div><% end %></td>
+  <td width="25px"><%= link_to '', book, class: 'glyphicon glyphicon-eye-open' %></td>
+  <td width="25px"><%= link_to '', edit_book_path(book), class: 'glyphicon glyphicon-pencil' %></td>
+  <td width="25px"><%= link_to '', book, method: :delete, data: { confirm: 'Are you sure?' }, class: 'glyphicon glyphicon-trash' %></td>
+</tr>

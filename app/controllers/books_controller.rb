@@ -5,6 +5,7 @@ class BooksController < ApplicationController
   # GET /books.json
   def index
     @books = Book.all
+    @book = Book.new
   end
 
   # GET /books/1
@@ -26,21 +27,16 @@ class BooksController < ApplicationController
   def create
     @book = Book.new(book_params)
 
-
-    # https://developers.google.com/books/docs/v1/using#WorkingVolumes
-    # https://www.googleapis.com/books/v1/volumes?q=search+terms
-    # key=AIzaSyB1aJSV6ene1f1VlF4wHzaHwd2lHcMYLEo
-
-
-
     respond_to do |format|
       if @book.save
-        # format.html { redirect_to @book, notice: 'Book was successfully created.' }
-        format.html { redirect_to books_url }
+        format.html { redirect_to @book, notice: 'Book was successfully created.' }
+        # format.html { redirect_to books_url }
         format.json { render :show, status: :created, location: @book }
+        format.js   { render action: 'show', status: :created, location: @book }
       else
         format.html { render :new }
         format.json { render json: @book.errors, status: :unprocessable_entity }
+        format.js   { render json: @book.errors, status: :unprocessable_entity }
       end
     end
   end
