@@ -19,7 +19,7 @@
 
 <br>
 
-<%= link_to 'New Book', '#search_modal', 'data-toggle' => 'modal', :onclick=>"destroyJsFunction()", class: 'btn btn-large btn-primary' %>
+<%= link_to 'New Book', '#search_modal', 'data-toggle' => 'modal', :onclick=>"hideModal()", class: 'btn btn-large btn-primary' %>
 
 <%# Bootstrap modal markup. @see: http://getbootstrap.com/javascript/#modals %>
 <div class="modal fade" id="new_book_modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
@@ -27,7 +27,7 @@
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-        <h4 class="modal-title" id="myModalLabel">Create new person</h4>
+        <h4 class="modal-title" id="myModalLabel">Create new book</h4>
       </div>
       <div class="modal-body">
         <%# Render the new book form (passing modal => true to enable remote => true) %>

@@ -17081,3 +17081,2435 @@ Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-06 09:07:00
 
 
 Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2014-09-06 09:07:00 -0400
+
+
+Started GET "/books" for 127.0.0.1 at 2014-09-06 10:19:49 -0400
+Processing by BooksController#index as HTML
+  [1m[36mBook Load (0.2ms)[0m  [1mSELECT "books".* FROM "books"[0m
+  Rendered books/_table_row.html.erb (2.5ms)
+  Rendered books/_table_row.html.erb (0.7ms)
+  Rendered books/_table_row.html.erb (0.6ms)
+  Rendered books/_form.html.erb (77.3ms)
+  Rendered books/_search.html.erb (0.4ms)
+  Rendered books/index.html.erb within layouts/application (136.4ms)
+Completed 200 OK in 659ms (Views: 554.4ms | ActiveRecord: 10.0ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2014-09-06 10:19:50 -0400
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-09-06 10:19:50 -0400
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-09-06 10:19:50 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-06 10:19:50 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-09-06 10:19:50 -0400
+
+
+Started GET "/assets/movies.css?body=1" for 127.0.0.1 at 2014-09-06 10:19:50 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-06 10:19:50 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-06 10:19:50 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-06 10:19:50 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-06 10:19:50 -0400
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2014-09-06 10:19:50 -0400
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-06 10:19:50 -0400
+
+
+Started GET "/assets/movies.js?body=1" for 127.0.0.1 at 2014-09-06 10:19:50 -0400
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-09-06 10:19:50 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-06 10:19:50 -0400
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2014-09-06 10:19:50 -0400
+
+
+Started GET "/books" for 127.0.0.1 at 2014-09-06 10:21:13 -0400
+Processing by BooksController#index as HTML
+  [1m[35mBook Load (0.2ms)[0m  SELECT "books".* FROM "books"
+  Rendered books/_table_row.html.erb (0.7ms)
+  Rendered books/_table_row.html.erb (0.4ms)
+  Rendered books/_table_row.html.erb (0.4ms)
+  Rendered books/_form.html.erb (1.9ms)
+  Rendered books/_search.html.erb (0.0ms)
+  Rendered books/index.html.erb within layouts/application (6.7ms)
+Completed 200 OK in 16ms (Views: 15.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2014-09-06 10:21:13 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-09-06 10:21:13 -0400
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-09-06 10:21:13 -0400
+
+
+Started GET "/assets/movies.css?body=1" for 127.0.0.1 at 2014-09-06 10:21:13 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-06 10:21:13 -0400
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-09-06 10:21:13 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-06 10:21:13 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-06 10:21:13 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-06 10:21:13 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-06 10:21:13 -0400
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2014-09-06 10:21:13 -0400
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-06 10:21:13 -0400
+
+
+Started GET "/assets/movies.js?body=1" for 127.0.0.1 at 2014-09-06 10:21:13 -0400
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-09-06 10:21:13 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-06 10:21:13 -0400
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2014-09-06 10:21:13 -0400
+
+
+Started GET "/books" for 127.0.0.1 at 2014-09-06 10:25:14 -0400
+Processing by BooksController#index as HTML
+  [1m[36mBook Load (0.1ms)[0m  [1mSELECT "books".* FROM "books"[0m
+  Rendered books/_table_row.html.erb (0.5ms)
+  Rendered books/_table_row.html.erb (0.4ms)
+  Rendered books/_table_row.html.erb (0.4ms)
+  Rendered books/_form.html.erb (1.8ms)
+  Rendered books/_search.html.erb (0.0ms)
+  Rendered books/index.html.erb within layouts/application (6.1ms)
+Completed 200 OK in 44ms (Views: 43.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2014-09-06 10:25:14 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-09-06 10:25:14 -0400
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-09-06 10:25:14 -0400
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-09-06 10:25:14 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-06 10:25:14 -0400
+
+
+Started GET "/assets/movies.css?body=1" for 127.0.0.1 at 2014-09-06 10:25:14 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-06 10:25:14 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-06 10:25:14 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-06 10:25:14 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-06 10:25:14 -0400
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2014-09-06 10:25:14 -0400
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-06 10:25:14 -0400
+
+
+Started GET "/assets/movies.js?body=1" for 127.0.0.1 at 2014-09-06 10:25:14 -0400
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-09-06 10:25:14 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-06 10:25:14 -0400
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2014-09-06 10:25:14 -0400
+
+
+Started GET "/books" for 127.0.0.1 at 2014-09-06 10:26:31 -0400
+Processing by BooksController#index as HTML
+  [1m[35mBook Load (0.2ms)[0m  SELECT "books".* FROM "books"
+  Rendered books/_table_row.html.erb (0.7ms)
+  Rendered books/_table_row.html.erb (0.4ms)
+  Rendered books/_table_row.html.erb (0.4ms)
+  Rendered books/_form.html.erb (2.1ms)
+  Rendered books/_search.html.erb (0.0ms)
+  Rendered books/index.html.erb within layouts/application (6.9ms)
+Completed 200 OK in 64ms (Views: 63.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2014-09-06 10:26:31 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-06 10:26:31 -0400
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-09-06 10:26:31 -0400
+
+
+Started GET "/assets/movies.css?body=1" for 127.0.0.1 at 2014-09-06 10:26:31 -0400
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-09-06 10:26:31 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-09-06 10:26:31 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-06 10:26:31 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-06 10:26:31 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-06 10:26:31 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-06 10:26:31 -0400
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2014-09-06 10:26:31 -0400
+
+
+Started GET "/assets/movies.js?body=1" for 127.0.0.1 at 2014-09-06 10:26:31 -0400
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-06 10:26:31 -0400
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-09-06 10:26:31 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-06 10:26:31 -0400
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2014-09-06 10:26:31 -0400
+
+
+Started GET "/books" for 127.0.0.1 at 2014-09-06 10:28:41 -0400
+Processing by BooksController#index as HTML
+  [1m[36mBook Load (0.2ms)[0m  [1mSELECT "books".* FROM "books"[0m
+  Rendered books/_table_row.html.erb (0.7ms)
+  Rendered books/_table_row.html.erb (0.5ms)
+  Rendered books/_table_row.html.erb (0.5ms)
+  Rendered books/_form.html.erb (2.3ms)
+  Rendered books/_search.html.erb (0.1ms)
+  Rendered books/index.html.erb within layouts/application (7.9ms)
+Completed 200 OK in 46ms (Views: 45.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-09-06 10:28:41 -0400
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2014-09-06 10:28:41 -0400
+
+
+Started GET "/assets/movies.css?body=1" for 127.0.0.1 at 2014-09-06 10:28:41 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-06 10:28:41 -0400
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-09-06 10:28:41 -0400
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-09-06 10:28:41 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-06 10:28:41 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-06 10:28:41 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-06 10:28:41 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-06 10:28:41 -0400
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2014-09-06 10:28:41 -0400
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-06 10:28:41 -0400
+
+
+Started GET "/assets/movies.js?body=1" for 127.0.0.1 at 2014-09-06 10:28:41 -0400
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-09-06 10:28:41 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-06 10:28:41 -0400
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2014-09-06 10:28:41 -0400
+
+
+Started GET "/books" for 127.0.0.1 at 2014-09-06 10:29:46 -0400
+Processing by BooksController#index as HTML
+  [1m[35mBook Load (0.1ms)[0m  SELECT "books".* FROM "books"
+  Rendered books/_table_row.html.erb (0.5ms)
+  Rendered books/_table_row.html.erb (0.4ms)
+  Rendered books/_table_row.html.erb (0.7ms)
+  Rendered books/_form.html.erb (2.2ms)
+  Rendered books/_search.html.erb (0.0ms)
+  Rendered books/index.html.erb within layouts/application (7.3ms)
+Completed 200 OK in 48ms (Views: 47.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2014-09-06 10:29:46 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-06 10:29:46 -0400
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-09-06 10:29:46 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-09-06 10:29:46 -0400
+
+
+Started GET "/assets/movies.css?body=1" for 127.0.0.1 at 2014-09-06 10:29:46 -0400
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-09-06 10:29:46 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-06 10:29:46 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-06 10:29:46 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-06 10:29:46 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-06 10:29:46 -0400
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2014-09-06 10:29:46 -0400
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-06 10:29:46 -0400
+
+
+Started GET "/assets/movies.js?body=1" for 127.0.0.1 at 2014-09-06 10:29:46 -0400
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-09-06 10:29:46 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-06 10:29:46 -0400
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2014-09-06 10:29:46 -0400
+
+
+Started GET "/books" for 127.0.0.1 at 2014-09-06 10:30:36 -0400
+Processing by BooksController#index as HTML
+  [1m[36mBook Load (0.2ms)[0m  [1mSELECT "books".* FROM "books"[0m
+  Rendered books/_table_row.html.erb (0.6ms)
+  Rendered books/_table_row.html.erb (0.4ms)
+  Rendered books/_table_row.html.erb (0.7ms)
+  Rendered books/_form.html.erb (2.4ms)
+  Rendered books/_search.html.erb (0.0ms)
+  Rendered books/index.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 45ms (Views: 43.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2014-09-06 10:30:36 -0400
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-09-06 10:30:36 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-06 10:30:36 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-09-06 10:30:36 -0400
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-09-06 10:30:36 -0400
+
+
+Started GET "/assets/movies.css?body=1" for 127.0.0.1 at 2014-09-06 10:30:36 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-06 10:30:36 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-06 10:30:36 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-06 10:30:36 -0400
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2014-09-06 10:30:36 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-06 10:30:36 -0400
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-06 10:30:36 -0400
+
+
+Started GET "/assets/movies.js?body=1" for 127.0.0.1 at 2014-09-06 10:30:36 -0400
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-09-06 10:30:36 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-06 10:30:36 -0400
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2014-09-06 10:30:36 -0400
+
+
+Started GET "/books" for 127.0.0.1 at 2014-09-06 10:31:39 -0400
+Processing by BooksController#index as HTML
+  [1m[35mBook Load (0.1ms)[0m  SELECT "books".* FROM "books"
+  Rendered books/_table_row.html.erb (0.5ms)
+  Rendered books/_table_row.html.erb (0.3ms)
+  Rendered books/_table_row.html.erb (0.4ms)
+  Rendered books/_form.html.erb (2.2ms)
+  Rendered books/_search.html.erb (0.0ms)
+  Rendered books/index.html.erb within layouts/application (6.9ms)
+Completed 200 OK in 46ms (Views: 44.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2014-09-06 10:31:39 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-06 10:31:39 -0400
+
+
+Started GET "/assets/movies.css?body=1" for 127.0.0.1 at 2014-09-06 10:31:39 -0400
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-09-06 10:31:39 -0400
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-09-06 10:31:39 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-06 10:31:39 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-09-06 10:31:39 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-06 10:31:39 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-06 10:31:39 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-06 10:31:39 -0400
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2014-09-06 10:31:39 -0400
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-06 10:31:39 -0400
+
+
+Started GET "/assets/movies.js?body=1" for 127.0.0.1 at 2014-09-06 10:31:39 -0400
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-09-06 10:31:39 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-06 10:31:39 -0400
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2014-09-06 10:31:39 -0400
+
+
+Started GET "/books" for 127.0.0.1 at 2014-09-06 10:32:02 -0400
+Processing by BooksController#index as HTML
+  [1m[36mBook Load (0.1ms)[0m  [1mSELECT "books".* FROM "books"[0m
+  Rendered books/_table_row.html.erb (0.5ms)
+  Rendered books/_table_row.html.erb (0.4ms)
+  Rendered books/_table_row.html.erb (0.4ms)
+  Rendered books/_form.html.erb (2.0ms)
+  Rendered books/_search.html.erb (0.0ms)
+  Rendered books/index.html.erb within layouts/application (6.3ms)
+Completed 200 OK in 49ms (Views: 48.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2014-09-06 10:32:03 -0400
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-09-06 10:32:03 -0400
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-09-06 10:32:03 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-09-06 10:32:03 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-06 10:32:03 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-06 10:32:03 -0400
+
+
+Started GET "/assets/movies.css?body=1" for 127.0.0.1 at 2014-09-06 10:32:03 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-06 10:32:03 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-06 10:32:03 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-06 10:32:03 -0400
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2014-09-06 10:32:03 -0400
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-06 10:32:03 -0400
+
+
+Started GET "/assets/movies.js?body=1" for 127.0.0.1 at 2014-09-06 10:32:03 -0400
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-09-06 10:32:03 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-06 10:32:03 -0400
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2014-09-06 10:32:03 -0400
+
+
+Started GET "/books" for 127.0.0.1 at 2014-09-06 10:32:34 -0400
+Processing by BooksController#index as HTML
+  [1m[35mBook Load (0.2ms)[0m  SELECT "books".* FROM "books"
+  Rendered books/_table_row.html.erb (0.9ms)
+  Rendered books/_table_row.html.erb (0.4ms)
+  Rendered books/_table_row.html.erb (0.5ms)
+  Rendered books/_form.html.erb (2.3ms)
+  Rendered books/_search.html.erb (0.0ms)
+  Rendered books/index.html.erb within layouts/application (9.2ms)
+Completed 200 OK in 51ms (Views: 49.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2014-09-06 10:32:34 -0400
+
+
+Started GET "/assets/movies.css?body=1" for 127.0.0.1 at 2014-09-06 10:32:34 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-09-06 10:32:34 -0400
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-09-06 10:32:34 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-06 10:32:34 -0400
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-09-06 10:32:34 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-06 10:32:34 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-06 10:32:34 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-06 10:32:34 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-06 10:32:34 -0400
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2014-09-06 10:32:34 -0400
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-06 10:32:34 -0400
+
+
+Started GET "/assets/movies.js?body=1" for 127.0.0.1 at 2014-09-06 10:32:34 -0400
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-09-06 10:32:34 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-06 10:32:34 -0400
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2014-09-06 10:32:34 -0400
+
+
+Started GET "/books" for 127.0.0.1 at 2014-09-06 10:33:01 -0400
+Processing by BooksController#index as HTML
+  [1m[36mBook Load (0.2ms)[0m  [1mSELECT "books".* FROM "books"[0m
+  Rendered books/_table_row.html.erb (0.7ms)
+  Rendered books/_table_row.html.erb (0.8ms)
+  Rendered books/_table_row.html.erb (0.5ms)
+  Rendered books/_form.html.erb (2.3ms)
+  Rendered books/_search.html.erb (0.0ms)
+  Rendered books/index.html.erb within layouts/application (8.3ms)
+Completed 200 OK in 48ms (Views: 47.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2014-09-06 10:33:02 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-09-06 10:33:02 -0400
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-09-06 10:33:02 -0400
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-09-06 10:33:02 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-06 10:33:02 -0400
+
+
+Started GET "/assets/movies.css?body=1" for 127.0.0.1 at 2014-09-06 10:33:02 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-06 10:33:02 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-06 10:33:02 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-06 10:33:02 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-06 10:33:02 -0400
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2014-09-06 10:33:02 -0400
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-06 10:33:02 -0400
+
+
+Started GET "/assets/movies.js?body=1" for 127.0.0.1 at 2014-09-06 10:33:02 -0400
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-09-06 10:33:02 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-06 10:33:02 -0400
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2014-09-06 10:33:02 -0400
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2014-09-06 10:33:48 -0400
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-09-06 10:33:48 -0400
+
+
+Started GET "/assets/movies.css?body=1" for 127.0.0.1 at 2014-09-06 10:33:48 -0400
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-09-06 10:33:48 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-09-06 10:33:48 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-06 10:33:48 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-06 10:33:48 -0400
+
+
+Started GET "/books" for 127.0.0.1 at 2014-09-06 11:41:53 -0400
+Processing by BooksController#index as HTML
+  [1m[35mBook Load (0.2ms)[0m  SELECT "books".* FROM "books"
+  Rendered books/_table_row.html.erb (1.0ms)
+  Rendered books/_table_row.html.erb (0.9ms)
+  Rendered books/_table_row.html.erb (0.6ms)
+  Rendered books/_form.html.erb (2.7ms)
+  Rendered books/_search.html.erb (0.3ms)
+  Rendered books/index.html.erb within layouts/application (10.9ms)
+Completed 200 OK in 46ms (Views: 44.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2014-09-06 11:41:53 -0400
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-09-06 11:41:53 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-09-06 11:41:53 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-06 11:41:53 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-06 11:41:53 -0400
+
+
+Started GET "/assets/movies.css?body=1" for 127.0.0.1 at 2014-09-06 11:41:54 -0400
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-09-06 11:41:54 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-06 11:41:54 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-06 11:41:54 -0400
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2014-09-06 11:41:54 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-06 11:41:54 -0400
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-06 11:41:54 -0400
+
+
+Started GET "/assets/movies.js?body=1" for 127.0.0.1 at 2014-09-06 11:41:54 -0400
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-09-06 11:41:54 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-06 11:41:54 -0400
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2014-09-06 11:41:54 -0400
+
+
+Started GET "/books" for 127.0.0.1 at 2014-09-06 11:44:11 -0400
+Processing by BooksController#index as HTML
+  [1m[36mBook Load (0.2ms)[0m  [1mSELECT "books".* FROM "books"[0m
+  Rendered books/_table_row.html.erb (0.6ms)
+  Rendered books/_table_row.html.erb (0.5ms)
+  Rendered books/_table_row.html.erb (0.4ms)
+  Rendered books/_form.html.erb (2.2ms)
+  Rendered books/_search.html.erb (2.8ms)
+  Rendered books/index.html.erb within layouts/application (10.4ms)
+Completed 200 OK in 20ms (Views: 19.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2014-09-06 11:44:11 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-06 11:44:11 -0400
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-09-06 11:44:11 -0400
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-09-06 11:44:11 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-09-06 11:44:11 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-06 11:44:11 -0400
+
+
+Started GET "/assets/movies.css?body=1" for 127.0.0.1 at 2014-09-06 11:44:11 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-06 11:44:11 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-06 11:44:11 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-06 11:44:11 -0400
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2014-09-06 11:44:11 -0400
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-06 11:44:11 -0400
+
+
+Started GET "/assets/movies.js?body=1" for 127.0.0.1 at 2014-09-06 11:44:11 -0400
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-09-06 11:44:11 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-06 11:44:11 -0400
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2014-09-06 11:44:11 -0400
+
+
+Started GET "/books" for 127.0.0.1 at 2014-09-06 11:45:14 -0400
+Processing by BooksController#index as HTML
+  [1m[35mBook Load (0.1ms)[0m  SELECT "books".* FROM "books"
+  Rendered books/_table_row.html.erb (0.6ms)
+  Rendered books/_table_row.html.erb (0.4ms)
+  Rendered books/_table_row.html.erb (0.5ms)
+  Rendered books/_form.html.erb (2.2ms)
+  Rendered books/_search.html.erb (3.0ms)
+  Rendered books/index.html.erb within layouts/application (10.1ms)
+Completed 200 OK in 50ms (Views: 49.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2014-09-06 11:45:14 -0400
+
+
+Started GET "/assets/movies.css?body=1" for 127.0.0.1 at 2014-09-06 11:45:14 -0400
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-09-06 11:45:14 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-09-06 11:45:14 -0400
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-09-06 11:45:14 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-06 11:45:14 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-06 11:45:14 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-06 11:45:14 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-06 11:45:14 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-06 11:45:14 -0400
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2014-09-06 11:45:14 -0400
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-06 11:45:14 -0400
+
+
+Started GET "/assets/movies.js?body=1" for 127.0.0.1 at 2014-09-06 11:45:14 -0400
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-09-06 11:45:14 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-06 11:45:14 -0400
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2014-09-06 11:45:14 -0400
+
+
+Started GET "/books" for 127.0.0.1 at 2014-09-06 11:45:32 -0400
+Processing by BooksController#index as HTML
+  [1m[36mBook Load (0.2ms)[0m  [1mSELECT "books".* FROM "books"[0m
+  Rendered books/_table_row.html.erb (1.0ms)
+  Rendered books/_table_row.html.erb (0.6ms)
+  Rendered books/_table_row.html.erb (0.4ms)
+  Rendered books/_form.html.erb (2.4ms)
+  Rendered books/_search.html.erb (1.8ms)
+  Rendered books/index.html.erb within layouts/application (10.1ms)
+Completed 200 OK in 19ms (Views: 18.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2014-09-06 11:45:32 -0400
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-09-06 11:45:32 -0400
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-09-06 11:45:32 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-06 11:45:32 -0400
+
+
+Started GET "/assets/movies.css?body=1" for 127.0.0.1 at 2014-09-06 11:45:32 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-09-06 11:45:32 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-06 11:45:32 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-06 11:45:32 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-06 11:45:32 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-06 11:45:32 -0400
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2014-09-06 11:45:32 -0400
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-06 11:45:32 -0400
+
+
+Started GET "/assets/movies.js?body=1" for 127.0.0.1 at 2014-09-06 11:45:32 -0400
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-09-06 11:45:32 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-06 11:45:32 -0400
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2014-09-06 11:45:32 -0400
+
+
+Started GET "/books" for 127.0.0.1 at 2014-09-06 11:45:55 -0400
+Processing by BooksController#index as HTML
+  [1m[35mBook Load (0.2ms)[0m  SELECT "books".* FROM "books"
+  Rendered books/_table_row.html.erb (0.7ms)
+  Rendered books/_table_row.html.erb (0.8ms)
+  Rendered books/_table_row.html.erb (0.5ms)
+  Rendered books/_form.html.erb (2.3ms)
+  Rendered books/_search.html.erb (1.8ms)
+  Rendered books/index.html.erb within layouts/application (9.9ms)
+Completed 200 OK in 19ms (Views: 18.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2014-09-06 11:45:55 -0400
+
+
+Started GET "/assets/movies.css?body=1" for 127.0.0.1 at 2014-09-06 11:45:55 -0400
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-09-06 11:45:55 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-09-06 11:45:55 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-06 11:45:55 -0400
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-09-06 11:45:55 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-06 11:45:55 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-06 11:45:55 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-06 11:45:55 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-06 11:45:55 -0400
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2014-09-06 11:45:55 -0400
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-06 11:45:55 -0400
+
+
+Started GET "/assets/movies.js?body=1" for 127.0.0.1 at 2014-09-06 11:45:55 -0400
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-09-06 11:45:55 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-06 11:45:55 -0400
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2014-09-06 11:45:55 -0400
+
+
+Started GET "/books" for 127.0.0.1 at 2014-09-06 11:46:32 -0400
+Processing by BooksController#index as HTML
+  [1m[36mBook Load (0.1ms)[0m  [1mSELECT "books".* FROM "books"[0m
+  Rendered books/_table_row.html.erb (0.6ms)
+  Rendered books/_table_row.html.erb (0.7ms)
+  Rendered books/_table_row.html.erb (0.4ms)
+  Rendered books/_form.html.erb (2.1ms)
+  Rendered books/_search.html.erb (1.8ms)
+  Rendered books/index.html.erb within layouts/application (9.6ms)
+Completed 200 OK in 46ms (Views: 44.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2014-09-06 11:46:32 -0400
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-09-06 11:46:32 -0400
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-09-06 11:46:32 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-09-06 11:46:32 -0400
+
+
+Started GET "/assets/movies.css?body=1" for 127.0.0.1 at 2014-09-06 11:46:32 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-06 11:46:32 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-06 11:46:32 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-06 11:46:32 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-06 11:46:32 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-06 11:46:32 -0400
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2014-09-06 11:46:32 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-06 11:46:32 -0400
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-06 11:46:32 -0400
+
+
+Started GET "/assets/movies.js?body=1" for 127.0.0.1 at 2014-09-06 11:46:32 -0400
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-09-06 11:46:32 -0400
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2014-09-06 11:46:32 -0400
+
+
+Started GET "/books" for 127.0.0.1 at 2014-09-06 11:48:39 -0400
+Processing by BooksController#index as HTML
+  [1m[35mBook Load (0.1ms)[0m  SELECT "books".* FROM "books"
+  Rendered books/_table_row.html.erb (0.5ms)
+  Rendered books/_table_row.html.erb (0.3ms)
+  Rendered books/_table_row.html.erb (0.4ms)
+  Rendered books/_form.html.erb (1.9ms)
+  Rendered books/_search.html.erb (1.8ms)
+  Rendered books/index.html.erb within layouts/application (7.7ms)
+Completed 200 OK in 50ms (Views: 49.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2014-09-06 11:48:39 -0400
+
+
+Started GET "/assets/movies.css?body=1" for 127.0.0.1 at 2014-09-06 11:48:39 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-09-06 11:48:39 -0400
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-09-06 11:48:39 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-06 11:48:39 -0400
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-09-06 11:48:39 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-06 11:48:39 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-06 11:48:39 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-06 11:48:39 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-06 11:48:39 -0400
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-06 11:48:39 -0400
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2014-09-06 11:48:39 -0400
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-09-06 11:48:39 -0400
+
+
+Started GET "/assets/movies.js?body=1" for 127.0.0.1 at 2014-09-06 11:48:39 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-06 11:48:39 -0400
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2014-09-06 11:48:39 -0400
+
+
+Started GET "/books" for 127.0.0.1 at 2014-09-06 11:49:08 -0400
+Processing by BooksController#index as HTML
+  [1m[36mBook Load (0.2ms)[0m  [1mSELECT "books".* FROM "books"[0m
+  Rendered books/_table_row.html.erb (1.1ms)
+  Rendered books/_table_row.html.erb (0.5ms)
+  Rendered books/_table_row.html.erb (0.5ms)
+  Rendered books/_form.html.erb (2.0ms)
+  Rendered books/_search.html.erb (1.7ms)
+  Rendered books/index.html.erb within layouts/application (9.7ms)
+Completed 200 OK in 48ms (Views: 46.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2014-09-06 11:49:08 -0400
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-09-06 11:49:08 -0400
+
+
+Started GET "/assets/movies.css?body=1" for 127.0.0.1 at 2014-09-06 11:49:08 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-09-06 11:49:08 -0400
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-09-06 11:49:08 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-06 11:49:08 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-06 11:49:08 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-06 11:49:08 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-06 11:49:08 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-06 11:49:08 -0400
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2014-09-06 11:49:08 -0400
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-06 11:49:08 -0400
+
+
+Started GET "/assets/movies.js?body=1" for 127.0.0.1 at 2014-09-06 11:49:08 -0400
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-09-06 11:49:08 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-06 11:49:08 -0400
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2014-09-06 11:49:08 -0400
+
+
+Started GET "/books" for 127.0.0.1 at 2014-09-06 11:49:39 -0400
+Processing by BooksController#index as HTML
+  [1m[35mBook Load (0.1ms)[0m  SELECT "books".* FROM "books"
+  Rendered books/_table_row.html.erb (0.7ms)
+  Rendered books/_table_row.html.erb (0.5ms)
+  Rendered books/_table_row.html.erb (0.6ms)
+  Rendered books/_form.html.erb (2.2ms)
+  Rendered books/_search.html.erb (2.1ms)
+  Rendered books/index.html.erb within layouts/application (13.2ms)
+Completed 200 OK in 51ms (Views: 50.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2014-09-06 11:49:39 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-09-06 11:49:39 -0400
+
+
+Started GET "/assets/movies.css?body=1" for 127.0.0.1 at 2014-09-06 11:49:39 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-06 11:49:39 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-06 11:49:39 -0400
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-09-06 11:49:39 -0400
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-09-06 11:49:39 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-06 11:49:39 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-06 11:49:39 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-06 11:49:39 -0400
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2014-09-06 11:49:39 -0400
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-06 11:49:39 -0400
+
+
+Started GET "/assets/movies.js?body=1" for 127.0.0.1 at 2014-09-06 11:49:39 -0400
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-09-06 11:49:39 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-06 11:49:39 -0400
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2014-09-06 11:49:39 -0400
+
+
+Started GET "/books" for 127.0.0.1 at 2014-09-06 11:50:16 -0400
+Processing by BooksController#index as HTML
+  [1m[36mBook Load (0.1ms)[0m  [1mSELECT "books".* FROM "books"[0m
+  Rendered books/_table_row.html.erb (0.5ms)
+  Rendered books/_table_row.html.erb (0.6ms)
+  Rendered books/_table_row.html.erb (0.8ms)
+  Rendered books/_form.html.erb (3.3ms)
+  Rendered books/_search.html.erb (2.1ms)
+  Rendered books/index.html.erb within layouts/application (11.5ms)
+Completed 200 OK in 97ms (Views: 95.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2014-09-06 11:50:17 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-09-06 11:50:17 -0400
+
+
+Started GET "/assets/movies.css?body=1" for 127.0.0.1 at 2014-09-06 11:50:17 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-06 11:50:17 -0400
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-09-06 11:50:17 -0400
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-09-06 11:50:17 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-06 11:50:17 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-06 11:50:17 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-06 11:50:17 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-06 11:50:17 -0400
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2014-09-06 11:50:17 -0400
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-06 11:50:17 -0400
+
+
+Started GET "/assets/movies.js?body=1" for 127.0.0.1 at 2014-09-06 11:50:17 -0400
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-09-06 11:50:17 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-06 11:50:17 -0400
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2014-09-06 11:50:17 -0400
+
+
+Started GET "/books" for 127.0.0.1 at 2014-09-06 12:04:18 -0400
+Processing by BooksController#index as HTML
+  [1m[35mBook Load (0.2ms)[0m  SELECT "books".* FROM "books"
+  Rendered books/_table_row.html.erb (0.9ms)
+  Rendered books/_table_row.html.erb (0.7ms)
+  Rendered books/_table_row.html.erb (0.9ms)
+  Rendered books/_form.html.erb (3.4ms)
+  Rendered books/_search.html.erb (2.1ms)
+  Rendered books/index.html.erb within layouts/application (12.9ms)
+Completed 200 OK in 55ms (Views: 53.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2014-09-06 12:04:18 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-09-06 12:04:18 -0400
+
+
+Started GET "/assets/movies.css?body=1" for 127.0.0.1 at 2014-09-06 12:04:18 -0400
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-09-06 12:04:18 -0400
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-09-06 12:04:18 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-06 12:04:18 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-06 12:04:18 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-06 12:04:18 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-06 12:04:18 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-06 12:04:18 -0400
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2014-09-06 12:04:18 -0400
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-06 12:04:18 -0400
+
+
+Started GET "/assets/movies.js?body=1" for 127.0.0.1 at 2014-09-06 12:04:18 -0400
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-09-06 12:04:18 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-06 12:04:18 -0400
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2014-09-06 12:04:18 -0400
+
+
+Started GET "/books" for 127.0.0.1 at 2014-09-06 12:04:34 -0400
+Processing by BooksController#index as HTML
+  [1m[36mBook Load (0.2ms)[0m  [1mSELECT "books".* FROM "books"[0m
+  Rendered books/_table_row.html.erb (0.7ms)
+  Rendered books/_table_row.html.erb (0.4ms)
+  Rendered books/_table_row.html.erb (0.4ms)
+  Rendered books/_form.html.erb (2.1ms)
+  Rendered books/_search.html.erb (1.8ms)
+  Rendered books/index.html.erb within layouts/application (9.5ms)
+Completed 200 OK in 47ms (Views: 46.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2014-09-06 12:04:34 -0400
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-09-06 12:04:34 -0400
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-09-06 12:04:34 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-09-06 12:04:34 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-06 12:04:34 -0400
+
+
+Started GET "/assets/movies.css?body=1" for 127.0.0.1 at 2014-09-06 12:04:34 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-06 12:04:34 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-06 12:04:34 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-06 12:04:34 -0400
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2014-09-06 12:04:34 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-06 12:04:34 -0400
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-06 12:04:34 -0400
+
+
+Started GET "/assets/movies.js?body=1" for 127.0.0.1 at 2014-09-06 12:04:34 -0400
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-09-06 12:04:34 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-06 12:04:34 -0400
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2014-09-06 12:04:34 -0400
+
+
+Started GET "/books" for 127.0.0.1 at 2014-09-06 12:05:32 -0400
+Processing by BooksController#index as HTML
+  [1m[35mBook Load (0.2ms)[0m  SELECT "books".* FROM "books"
+  Rendered books/_table_row.html.erb (0.6ms)
+  Rendered books/_table_row.html.erb (0.5ms)
+  Rendered books/_table_row.html.erb (0.4ms)
+  Rendered books/_form.html.erb (3.8ms)
+  Rendered books/_search.html.erb (3.3ms)
+  Rendered books/index.html.erb within layouts/application (12.1ms)
+Completed 200 OK in 53ms (Views: 52.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2014-09-06 12:05:32 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-09-06 12:05:32 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-06 12:05:32 -0400
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-09-06 12:05:32 -0400
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-09-06 12:05:32 -0400
+
+
+Started GET "/assets/movies.css?body=1" for 127.0.0.1 at 2014-09-06 12:05:32 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-06 12:05:32 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-06 12:05:32 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-06 12:05:32 -0400
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-06 12:05:32 -0400
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2014-09-06 12:05:32 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-06 12:05:32 -0400
+
+
+Started GET "/assets/movies.js?body=1" for 127.0.0.1 at 2014-09-06 12:05:32 -0400
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-09-06 12:05:32 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-06 12:05:32 -0400
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2014-09-06 12:05:32 -0400
+
+
+Started GET "/books" for 127.0.0.1 at 2014-09-06 12:06:43 -0400
+Processing by BooksController#index as HTML
+  [1m[36mBook Load (0.1ms)[0m  [1mSELECT "books".* FROM "books"[0m
+  Rendered books/_table_row.html.erb (0.5ms)
+  Rendered books/_table_row.html.erb (0.4ms)
+  Rendered books/_table_row.html.erb (0.4ms)
+  Rendered books/_form.html.erb (1.9ms)
+  Rendered books/_search.html.erb (1.8ms)
+  Rendered books/index.html.erb within layouts/application (7.8ms)
+Completed 200 OK in 49ms (Views: 48.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2014-09-06 12:06:43 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-06 12:06:43 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-09-06 12:06:43 -0400
+
+
+Started GET "/assets/movies.css?body=1" for 127.0.0.1 at 2014-09-06 12:06:43 -0400
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-09-06 12:06:43 -0400
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-09-06 12:06:43 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-06 12:06:43 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-06 12:06:43 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-06 12:06:43 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-06 12:06:43 -0400
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2014-09-06 12:06:43 -0400
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-06 12:06:43 -0400
+
+
+Started GET "/assets/movies.js?body=1" for 127.0.0.1 at 2014-09-06 12:06:43 -0400
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-09-06 12:06:43 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-06 12:06:43 -0400
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2014-09-06 12:06:43 -0400
+
+
+Started GET "/books" for 127.0.0.1 at 2014-09-06 12:07:05 -0400
+Processing by BooksController#index as HTML
+  [1m[35mBook Load (0.2ms)[0m  SELECT "books".* FROM "books"
+  Rendered books/_table_row.html.erb (0.8ms)
+  Rendered books/_table_row.html.erb (0.8ms)
+  Rendered books/_table_row.html.erb (0.4ms)
+  Rendered books/_form.html.erb (2.2ms)
+  Rendered books/_search.html.erb (1.9ms)
+  Rendered books/index.html.erb within layouts/application (10.2ms)
+Completed 200 OK in 80ms (Views: 79.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2014-09-06 12:07:06 -0400
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-09-06 12:07:06 -0400
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-09-06 12:07:06 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-06 12:07:06 -0400
+
+
+Started GET "/assets/movies.css?body=1" for 127.0.0.1 at 2014-09-06 12:07:06 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-09-06 12:07:06 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-06 12:07:06 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-06 12:07:06 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-06 12:07:06 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-06 12:07:06 -0400
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-06 12:07:06 -0400
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2014-09-06 12:07:06 -0400
+
+
+Started GET "/assets/movies.js?body=1" for 127.0.0.1 at 2014-09-06 12:07:06 -0400
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-09-06 12:07:06 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-06 12:07:06 -0400
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2014-09-06 12:07:06 -0400
+
+
+Started GET "/books" for 127.0.0.1 at 2014-09-06 12:09:24 -0400
+Processing by BooksController#index as HTML
+  [1m[36mBook Load (0.2ms)[0m  [1mSELECT "books".* FROM "books"[0m
+  Rendered books/_table_row.html.erb (0.6ms)
+  Rendered books/_table_row.html.erb (0.6ms)
+  Rendered books/_table_row.html.erb (0.5ms)
+  Rendered books/_form.html.erb (2.3ms)
+  Rendered books/_search.html.erb (2.4ms)
+  Rendered books/index.html.erb within layouts/application (9.7ms)
+Completed 200 OK in 48ms (Views: 46.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2014-09-06 12:09:24 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-09-06 12:09:24 -0400
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-09-06 12:09:24 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-06 12:09:24 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-06 12:09:24 -0400
+
+
+Started GET "/assets/movies.css?body=1" for 127.0.0.1 at 2014-09-06 12:09:24 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-06 12:09:24 -0400
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-09-06 12:09:24 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-06 12:09:24 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-06 12:09:24 -0400
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2014-09-06 12:09:24 -0400
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-06 12:09:24 -0400
+
+
+Started GET "/assets/movies.js?body=1" for 127.0.0.1 at 2014-09-06 12:09:24 -0400
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-09-06 12:09:24 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-06 12:09:24 -0400
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2014-09-06 12:09:24 -0400
+
+
+Started GET "/books" for 127.0.0.1 at 2014-09-06 12:10:37 -0400
+Processing by BooksController#index as HTML
+  [1m[35mBook Load (0.2ms)[0m  SELECT "books".* FROM "books"
+  Rendered books/_table_row.html.erb (0.6ms)
+  Rendered books/_table_row.html.erb (0.5ms)
+  Rendered books/_table_row.html.erb (0.4ms)
+  Rendered books/_form.html.erb (2.6ms)
+  Rendered books/_search.html.erb (1.9ms)
+  Rendered books/index.html.erb within layouts/application (9.2ms)
+Completed 200 OK in 48ms (Views: 46.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2014-09-06 12:10:37 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-09-06 12:10:37 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-06 12:10:37 -0400
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-09-06 12:10:37 -0400
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-09-06 12:10:37 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-06 12:10:37 -0400
+
+
+Started GET "/assets/movies.css?body=1" for 127.0.0.1 at 2014-09-06 12:10:37 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-06 12:10:37 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-06 12:10:37 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-06 12:10:37 -0400
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2014-09-06 12:10:38 -0400
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-06 12:10:38 -0400
+
+
+Started GET "/assets/movies.js?body=1" for 127.0.0.1 at 2014-09-06 12:10:38 -0400
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-09-06 12:10:38 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-06 12:10:38 -0400
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2014-09-06 12:10:38 -0400
+
+
+Started GET "/books" for 127.0.0.1 at 2014-09-06 12:11:39 -0400
+Processing by BooksController#index as HTML
+  [1m[36mBook Load (0.1ms)[0m  [1mSELECT "books".* FROM "books"[0m
+  Rendered books/_table_row.html.erb (0.6ms)
+  Rendered books/_table_row.html.erb (0.6ms)
+  Rendered books/_table_row.html.erb (0.5ms)
+  Rendered books/_form.html.erb (2.2ms)
+  Rendered books/_search.html.erb (2.0ms)
+  Rendered books/index.html.erb within layouts/application (9.6ms)
+Completed 200 OK in 50ms (Views: 48.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2014-09-06 12:11:40 -0400
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-09-06 12:11:40 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-06 12:11:40 -0400
+
+
+Started GET "/assets/movies.css?body=1" for 127.0.0.1 at 2014-09-06 12:11:40 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-09-06 12:11:40 -0400
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-09-06 12:11:40 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-06 12:11:40 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-06 12:11:40 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-06 12:11:40 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-06 12:11:40 -0400
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2014-09-06 12:11:40 -0400
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-06 12:11:40 -0400
+
+
+Started GET "/assets/movies.js?body=1" for 127.0.0.1 at 2014-09-06 12:11:40 -0400
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-09-06 12:11:40 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-06 12:11:40 -0400
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2014-09-06 12:11:40 -0400
+
+
+Started GET "/books" for 127.0.0.1 at 2014-09-06 12:14:02 -0400
+Processing by BooksController#index as HTML
+  [1m[35mBook Load (0.2ms)[0m  SELECT "books".* FROM "books"
+  Rendered books/_table_row.html.erb (1.0ms)
+  Rendered books/_table_row.html.erb (0.5ms)
+  Rendered books/_table_row.html.erb (0.4ms)
+  Rendered books/_form.html.erb (2.0ms)
+  Rendered books/_search.html.erb (2.7ms)
+  Rendered books/index.html.erb within layouts/application (10.4ms)
+Completed 200 OK in 52ms (Views: 50.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2014-09-06 12:14:02 -0400
+
+
+Started GET "/assets/movies.css?body=1" for 127.0.0.1 at 2014-09-06 12:14:02 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-09-06 12:14:02 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-06 12:14:02 -0400
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-09-06 12:14:02 -0400
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-09-06 12:14:02 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-06 12:14:02 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-06 12:14:02 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-06 12:14:02 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-06 12:14:02 -0400
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-06 12:14:02 -0400
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2014-09-06 12:14:02 -0400
+
+
+Started GET "/assets/movies.js?body=1" for 127.0.0.1 at 2014-09-06 12:14:02 -0400
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-09-06 12:14:02 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-06 12:14:02 -0400
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2014-09-06 12:14:02 -0400
+
+
+Started GET "/books" for 127.0.0.1 at 2014-09-06 12:15:30 -0400
+Processing by BooksController#index as HTML
+  [1m[36mBook Load (0.3ms)[0m  [1mSELECT "books".* FROM "books"[0m
+  Rendered books/_table_row.html.erb (1.2ms)
+  Rendered books/_table_row.html.erb (1.1ms)
+  Rendered books/_table_row.html.erb (0.8ms)
+  Rendered books/_form.html.erb (2.7ms)
+  Rendered books/_search.html.erb (2.6ms)
+  Rendered books/index.html.erb within layouts/application (13.9ms)
+Completed 200 OK in 58ms (Views: 56.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2014-09-06 12:15:30 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-09-06 12:15:30 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-06 12:15:30 -0400
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-09-06 12:15:30 -0400
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-09-06 12:15:30 -0400
+
+
+Started GET "/assets/movies.css?body=1" for 127.0.0.1 at 2014-09-06 12:15:30 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-06 12:15:30 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-06 12:15:30 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-06 12:15:30 -0400
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2014-09-06 12:15:30 -0400
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-06 12:15:30 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-06 12:15:30 -0400
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-09-06 12:15:30 -0400
+
+
+Started GET "/assets/movies.js?body=1" for 127.0.0.1 at 2014-09-06 12:15:30 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-06 12:15:30 -0400
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2014-09-06 12:15:30 -0400
+
+
+Started GET "/books" for 127.0.0.1 at 2014-09-06 12:15:33 -0400
+Processing by BooksController#index as HTML
+  [1m[35mBook Load (0.2ms)[0m  SELECT "books".* FROM "books"
+  Rendered books/_table_row.html.erb (0.7ms)
+  Rendered books/_table_row.html.erb (0.5ms)
+  Rendered books/_table_row.html.erb (0.4ms)
+  Rendered books/_form.html.erb (2.2ms)
+  Rendered books/_search.html.erb (1.8ms)
+  Rendered books/index.html.erb within layouts/application (9.0ms)
+Completed 200 OK in 18ms (Views: 17.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2014-09-06 12:15:33 -0400
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-09-06 12:15:33 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-09-06 12:15:33 -0400
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-09-06 12:15:33 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-06 12:15:33 -0400
+
+
+Started GET "/assets/movies.css?body=1" for 127.0.0.1 at 2014-09-06 12:15:33 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-06 12:15:33 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-06 12:15:33 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-06 12:15:33 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-06 12:15:33 -0400
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2014-09-06 12:15:33 -0400
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-06 12:15:33 -0400
+
+
+Started GET "/assets/movies.js?body=1" for 127.0.0.1 at 2014-09-06 12:15:33 -0400
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-09-06 12:15:33 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-06 12:15:33 -0400
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2014-09-06 12:15:34 -0400
+
+
+Started GET "/books" for 127.0.0.1 at 2014-09-06 12:19:06 -0400
+Processing by BooksController#index as HTML
+  [1m[36mBook Load (0.2ms)[0m  [1mSELECT "books".* FROM "books"[0m
+  Rendered books/_table_row.html.erb (0.7ms)
+  Rendered books/_table_row.html.erb (0.5ms)
+  Rendered books/_table_row.html.erb (0.4ms)
+  Rendered books/_form.html.erb (2.4ms)
+  Rendered books/_search.html.erb (2.0ms)
+  Rendered books/index.html.erb within layouts/application (9.6ms)
+Completed 200 OK in 47ms (Views: 46.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2014-09-06 12:19:07 -0400
+
+
+Started GET "/assets/movies.css?body=1" for 127.0.0.1 at 2014-09-06 12:19:07 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-06 12:19:07 -0400
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-09-06 12:19:07 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-09-06 12:19:07 -0400
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-09-06 12:19:07 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-06 12:19:07 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-06 12:19:07 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-06 12:19:07 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-06 12:19:07 -0400
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-06 12:19:07 -0400
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2014-09-06 12:19:07 -0400
+
+
+Started GET "/assets/movies.js?body=1" for 127.0.0.1 at 2014-09-06 12:19:07 -0400
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-09-06 12:19:07 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-06 12:19:07 -0400
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2014-09-06 12:19:07 -0400
+
+
+Started GET "/books" for 127.0.0.1 at 2014-09-06 12:22:47 -0400
+Processing by BooksController#index as HTML
+  [1m[35mBook Load (0.2ms)[0m  SELECT "books".* FROM "books"
+  Rendered books/_table_row.html.erb (0.6ms)
+  Rendered books/_table_row.html.erb (0.4ms)
+  Rendered books/_table_row.html.erb (0.4ms)
+  Rendered books/_form.html.erb (2.2ms)
+  Rendered books/_search.html.erb (2.1ms)
+  Rendered books/index.html.erb within layouts/application (12.3ms)
+Completed 200 OK in 53ms (Views: 52.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2014-09-06 12:22:47 -0400
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-09-06 12:22:47 -0400
+
+
+Started GET "/assets/movies.css?body=1" for 127.0.0.1 at 2014-09-06 12:22:47 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-09-06 12:22:47 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-06 12:22:47 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-06 12:22:47 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-06 12:22:47 -0400
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-09-06 12:22:47 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-06 12:22:47 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-06 12:22:47 -0400
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2014-09-06 12:22:48 -0400
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-06 12:22:48 -0400
+
+
+Started GET "/assets/movies.js?body=1" for 127.0.0.1 at 2014-09-06 12:22:48 -0400
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-09-06 12:22:48 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-06 12:22:48 -0400
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2014-09-06 12:22:48 -0400
+
+
+Started GET "/books" for 127.0.0.1 at 2014-09-06 12:23:49 -0400
+Processing by BooksController#index as HTML
+  [1m[36mBook Load (0.2ms)[0m  [1mSELECT "books".* FROM "books"[0m
+  Rendered books/_table_row.html.erb (0.9ms)
+  Rendered books/_table_row.html.erb (0.5ms)
+  Rendered books/_table_row.html.erb (0.6ms)
+  Rendered books/_form.html.erb (2.0ms)
+  Rendered books/_search.html.erb (1.7ms)
+  Rendered books/index.html.erb within layouts/application (9.6ms)
+Completed 200 OK in 173ms (Views: 171.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2014-09-06 12:23:49 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-09-06 12:23:49 -0400
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-09-06 12:23:49 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-06 12:23:49 -0400
+
+
+Started GET "/assets/movies.css?body=1" for 127.0.0.1 at 2014-09-06 12:23:49 -0400
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-09-06 12:23:49 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-06 12:23:49 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-06 12:23:49 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-06 12:23:49 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-06 12:23:49 -0400
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2014-09-06 12:23:49 -0400
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-06 12:23:49 -0400
+
+
+Started GET "/assets/movies.js?body=1" for 127.0.0.1 at 2014-09-06 12:23:49 -0400
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-09-06 12:23:49 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-06 12:23:49 -0400
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2014-09-06 12:23:49 -0400
+
+
+Started GET "/books" for 127.0.0.1 at 2014-09-06 12:24:45 -0400
+Processing by BooksController#index as HTML
+  [1m[35mBook Load (0.1ms)[0m  SELECT "books".* FROM "books"
+  Rendered books/_table_row.html.erb (0.5ms)
+  Rendered books/_table_row.html.erb (0.4ms)
+  Rendered books/_table_row.html.erb (0.4ms)
+  Rendered books/_form.html.erb (2.3ms)
+  Rendered books/_search.html.erb (2.0ms)
+  Rendered books/index.html.erb within layouts/application (8.9ms)
+Completed 200 OK in 58ms (Views: 56.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2014-09-06 12:24:45 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-09-06 12:24:45 -0400
+
+
+Started GET "/assets/movies.css?body=1" for 127.0.0.1 at 2014-09-06 12:24:45 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-06 12:24:45 -0400
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-09-06 12:24:45 -0400
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-09-06 12:24:45 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-06 12:24:45 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-06 12:24:45 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-06 12:24:45 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-06 12:24:45 -0400
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2014-09-06 12:24:45 -0400
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-06 12:24:45 -0400
+
+
+Started GET "/assets/movies.js?body=1" for 127.0.0.1 at 2014-09-06 12:24:45 -0400
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-09-06 12:24:45 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-06 12:24:45 -0400
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2014-09-06 12:24:45 -0400
+
+
+Started GET "/books" for 127.0.0.1 at 2014-09-06 12:25:25 -0400
+Processing by BooksController#index as HTML
+  [1m[36mBook Load (0.2ms)[0m  [1mSELECT "books".* FROM "books"[0m
+  Rendered books/_table_row.html.erb (0.7ms)
+  Rendered books/_table_row.html.erb (0.5ms)
+  Rendered books/_table_row.html.erb (0.5ms)
+  Rendered books/_form.html.erb (2.6ms)
+  Rendered books/_search.html.erb (2.9ms)
+  Rendered books/index.html.erb within layouts/application (10.7ms)
+Completed 200 OK in 49ms (Views: 48.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2014-09-06 12:25:25 -0400
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-09-06 12:25:25 -0400
+
+
+Started GET "/assets/movies.css?body=1" for 127.0.0.1 at 2014-09-06 12:25:25 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-06 12:25:25 -0400
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-09-06 12:25:25 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-09-06 12:25:25 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-06 12:25:25 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-06 12:25:25 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-06 12:25:25 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-06 12:25:25 -0400
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2014-09-06 12:25:25 -0400
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-06 12:25:25 -0400
+
+
+Started GET "/assets/movies.js?body=1" for 127.0.0.1 at 2014-09-06 12:25:25 -0400
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-09-06 12:25:25 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-06 12:25:25 -0400
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2014-09-06 12:25:25 -0400
+
+
+Started GET "/books" for 127.0.0.1 at 2014-09-06 12:26:37 -0400
+Processing by BooksController#index as HTML
+  [1m[35mBook Load (0.2ms)[0m  SELECT "books".* FROM "books"
+  Rendered books/_table_row.html.erb (0.6ms)
+  Rendered books/_table_row.html.erb (0.4ms)
+  Rendered books/_table_row.html.erb (0.5ms)
+  Rendered books/_form.html.erb (1.9ms)
+  Rendered books/_search.html.erb (1.7ms)
+  Rendered books/index.html.erb within layouts/application (8.3ms)
+Completed 200 OK in 51ms (Views: 50.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2014-09-06 12:26:37 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-06 12:26:37 -0400
+
+
+Started GET "/assets/movies.css?body=1" for 127.0.0.1 at 2014-09-06 12:26:37 -0400
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-09-06 12:26:37 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-09-06 12:26:37 -0400
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-09-06 12:26:37 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-06 12:26:37 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-06 12:26:37 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-06 12:26:37 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-06 12:26:37 -0400
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2014-09-06 12:26:37 -0400
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-06 12:26:37 -0400
+
+
+Started GET "/assets/movies.js?body=1" for 127.0.0.1 at 2014-09-06 12:26:37 -0400
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-09-06 12:26:37 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-06 12:26:37 -0400
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2014-09-06 12:26:37 -0400
+
+
+Started GET "/books" for 127.0.0.1 at 2014-09-06 12:29:23 -0400
+Processing by BooksController#index as HTML
+  [1m[36mBook Load (0.2ms)[0m  [1mSELECT "books".* FROM "books"[0m
+  Rendered books/_table_row.html.erb (0.5ms)
+  Rendered books/_table_row.html.erb (0.3ms)
+  Rendered books/_table_row.html.erb (0.4ms)
+  Rendered books/_form.html.erb (1.9ms)
+  Rendered books/_search.html.erb (3.9ms)
+  Rendered books/index.html.erb within layouts/application (10.0ms)
+Completed 200 OK in 53ms (Views: 51.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2014-09-06 12:29:23 -0400
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-09-06 12:29:23 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-06 12:29:23 -0400
+
+
+Started GET "/assets/movies.css?body=1" for 127.0.0.1 at 2014-09-06 12:29:23 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-09-06 12:29:23 -0400
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-09-06 12:29:23 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-06 12:29:23 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-06 12:29:23 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-06 12:29:23 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-06 12:29:23 -0400
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2014-09-06 12:29:23 -0400
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-06 12:29:23 -0400
+
+
+Started GET "/assets/movies.js?body=1" for 127.0.0.1 at 2014-09-06 12:29:23 -0400
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-09-06 12:29:23 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-06 12:29:23 -0400
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2014-09-06 12:29:23 -0400
+
+
+Started POST "/books" for 127.0.0.1 at 2014-09-06 12:31:12 -0400
+Processing by BooksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"UVhzgC0XLJq5D3cMckSZEShQ4mu8RhGhjej9NjwN97o=", "book"=>{"title"=>"Eat This Book", "author"=>"Eugene H. Peterson", "read"=>"0"}, "commit"=>"Create Book"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "books" ("author", "created_at", "read", "title", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["author", "Eugene H. Peterson"], ["created_at", "2014-09-06 16:31:12.947591"], ["read", "f"], ["title", "Eat This Book"], ["updated_at", "2014-09-06 16:31:12.947591"]]
+  [1m[35m (21.3ms)[0m  commit transaction
+Redirected to http://localhost:3000/books
+Completed 302 Found in 47ms (ActiveRecord: 21.9ms)
+
+
+Started GET "/books" for 127.0.0.1 at 2014-09-06 12:31:12 -0400
+Processing by BooksController#index as HTML
+  [1m[36mBook Load (0.2ms)[0m  [1mSELECT "books".* FROM "books"[0m
+  Rendered books/_table_row.html.erb (0.7ms)
+  Rendered books/_table_row.html.erb (0.5ms)
+  Rendered books/_table_row.html.erb (0.4ms)
+  Rendered books/_table_row.html.erb (0.4ms)
+  Rendered books/_form.html.erb (2.1ms)
+  Rendered books/_search.html.erb (1.8ms)
+  Rendered books/index.html.erb within layouts/application (9.5ms)
+Completed 200 OK in 18ms (Views: 17.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2014-09-06 12:31:13 -0400
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-09-06 12:31:13 -0400
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-09-06 12:31:13 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-06 12:31:13 -0400
+
+
+Started GET "/assets/movies.css?body=1" for 127.0.0.1 at 2014-09-06 12:31:13 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-06 12:31:13 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-06 12:31:13 -0400
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-09-06 12:31:13 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-06 12:31:13 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-06 12:31:13 -0400
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2014-09-06 12:31:13 -0400
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-06 12:31:13 -0400
+
+
+Started GET "/assets/movies.js?body=1" for 127.0.0.1 at 2014-09-06 12:31:13 -0400
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-09-06 12:31:13 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-06 12:31:13 -0400
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2014-09-06 12:31:13 -0400

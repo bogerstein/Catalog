@@ -1,4 +1,45 @@
-<form>
-	<input id="livesearch_query" type="text" size="30" onkeyup="showResult(this.value)", class="form-control">
-	<div id="livesearch_results"></div>
-</form>
+<div id="search">
+	<form>
+		<input id="livesearch_query" type="text" size="30" onkeyup="showResult(this.value)", class="form-control">
+		<div id="livesearch_results"></div>
+	</form>
+</div>
+
+<div id="createBook" style="display: none;">
+	<% modal ||= false %>
+	<% remote = modal ? true : false %>
+	<%= form_for(@book, remote: remote, html: {role: :form, 'data-model' => 'book'}) do |f| %>
+	  <% if @book.errors.any? %>
+	    <div id="error_explanation">
+	      <h2><%= pluralize(@book.errors.count, "error") %> prohibited this book from being saved:</h2>
+
+	      <ul>
+	      <% @book.errors.full_messages.each do |message| %>
+	        <li><%= message %></li>
+	      <% end %>
+	      </ul>
+	    </div>
+	  <% end %>
+
+	  <div class="form-group">
+	    <%= f.label :title, class: 'control-label' %><br>
+	    <%= f.text_field :title, class: 'form-control' %>
+	    <span class="help-block"></span>
+	  </div>
+	  <div class="form-group">
+	    <%= f.label :author, class: 'control-label' %><br>
+	    <%= f.text_field :author, class: 'form-control' %>
+	    <span class="help-block"></span>
+	  </div>
+	  <div class="form-group">
+	    <%= f.label :read, class: 'control-label' %><br>
+	    <%= f.check_box :read, class: 'form-control' %>
+	    <span class="help-block"></span>
+	  </div>
+
+	  <div class="actions">
+	    <%= f.submit class: 'btn btn-large btn-primary' %>
+	  </div>
+
+	<% end %>
+</div>

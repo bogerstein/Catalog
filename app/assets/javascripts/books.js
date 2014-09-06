@@ -61,12 +61,13 @@ function showResult(str) {
   //console.log(endpoint);
 
   $.get( encodeURI(endpoint), function( data ) {
-    console.log(data);
+    // console.log(data);
 
     text = "<table id=\"link-table\">";
     for (i = 0; i < data["items"].length; i++) { 
-      text += "<tr><td id=\"bid\" style=\"display:none;\">";
-      text += data["items"][i]["id"];
+      text += "<tr><td id=\"rid\" style=\"display:none;\">";
+      // text += data["items"][i]["id"];
+      text += i;
       text += "</td><td><img src=";
       text += data["items"][i]["volumeInfo"]["imageLinks"]["thumbnail"];
       text += " width=\"128\" height=\"192\"></td><td><p>";
@@ -77,6 +78,8 @@ function showResult(str) {
 
     document.getElementById("livesearch_results").innerHTML=text;
 
+    $('#link-table').data('rawData',data);
+
     // Apply a class on mouse over and remove it on mouse out.
     $('#link-table tr').hover(function () {
       $(this).toggleClass('highlight');
@@ -85,18 +88,30 @@ function showResult(str) {
     // Assign a click handler that grabs the URL 
     // from the first cell and redirects the user.
     $('#link-table tr').click(function () {
-      bid = $(this).find('td#bid').text();
-      console.log(bid);
+      daterz = $('#link-table').data('rawData');
+      // console.log(daterz);
+      // console.log($(this));
+      rid = $(this).find('td#rid').text();
+      console.log(daterz["items"][rid]);
+
+      $("#book_title ").val(daterz["items"][rid]["volumeInfo"]["title"]);
+      $("#book_author ").val(daterz["items"][rid]["volumeInfo"]["authors"][0]);
+
+      $('#search').toggle( "slide" );
+      $('#createBook').toggle( "slide" );
     });
 
   });
 }
 
-function destroyJsFunction() {
+function hideModal() {
   $('#search_modal').on('hidden.bs.modal', function () {
     document.getElementById("livesearch_query").value="";
     document.getElementById("livesearch_results").innerHTML="";
     document.getElementById("livesearch_results").style.border="0px";
+
+      $('#search').toggle( "slide" );
+      $('#createBook').toggle( "slide" );
   });
 }
 
