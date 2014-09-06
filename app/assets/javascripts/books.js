@@ -46,3 +46,64 @@ $(document).ready(function(){
   }
 
 }(jQuery));
+
+
+function showResult(str) {
+  if (str.length < 3) { 
+    document.getElementById("livesearch_results").innerHTML="";
+    document.getElementById("livesearch_results").style.border="0px";
+    return;
+  }
+
+  endpoint = "https://www.googleapis.com/books/v1/volumes?q=" + str + "&startIndex=0&maxResults=10&key=AIzaSyB1aJSV6ene1f1VlF4wHzaHwd2lHcMYLEo"
+
+  console.log(str);
+  //console.log(endpoint);
+
+  $.get( encodeURI(endpoint), function( data ) {
+    console.log(data);
+
+    text = "<table id=\"link-table\">";
+    for (i = 0; i < data["items"].length; i++) { 
+      text += "<tr><td id=\"bid\" style=\"display:none;\">";
+      text += data["items"][i]["id"];
+      text += "</td><td><img src=";
+      text += data["items"][i]["volumeInfo"]["imageLinks"]["thumbnail"];
+      text += " width=\"128\" height=\"192\"></td><td><p>";
+      text += data["items"][i]["volumeInfo"]["title"] + "(" + data["items"][i]["volumeInfo"]["publishedDate"] + ")";
+      text += "</p></td></tr>";
+    }
+    text += "</table>";
+
+    document.getElementById("livesearch_results").innerHTML=text;
+
+    // Apply a class on mouse over and remove it on mouse out.
+    $('#link-table tr').hover(function () {
+      $(this).toggleClass('highlight');
+    });
+
+    // Assign a click handler that grabs the URL 
+    // from the first cell and redirects the user.
+    $('#link-table tr').click(function () {
+      bid = $(this).find('td#bid').text();
+      console.log(bid);
+    });
+
+  });
+}
+
+function destroyJsFunction() {
+  $('#search_modal').on('hidden.bs.modal', function () {
+    document.getElementById("livesearch_query").value="";
+    document.getElementById("livesearch_results").innerHTML="";
+    document.getElementById("livesearch_results").style.border="0px";
+  });
+}
+
+
+
+
+
+
+
+
