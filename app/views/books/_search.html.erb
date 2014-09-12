@@ -6,6 +6,18 @@
 </div>
 
 <div id="createBook" style="display: none;">
+	<table width="100%" style="margin-bottom: 20px;">
+		<tr>
+			<td>
+				<img id="bookBigImage" src=""/>
+			</td>
+			<td width="100%">
+				<h1 id="bookTitle" />
+				<h2 id="bookAuthor" />
+			</td>
+		</tr>
+	</table>
+
 	<% modal ||= false %>
 	<% remote = modal ? true : false %>
 	<%= form_for(@book, remote: remote, html: {role: :form, 'data-model' => 'book'}) do |f| %>
@@ -21,25 +33,28 @@
 	    </div>
 	  <% end %>
 
-	  <div class="form-group">
-	    <%= f.label :title, class: 'control-label' %><br>
-	    <%= f.text_field :title, class: 'form-control' %>
-	    <span class="help-block"></span>
-	  </div>
-	  <div class="form-group">
-	    <%= f.label :author, class: 'control-label' %><br>
-	    <%= f.text_field :author, class: 'form-control' %>
-	    <span class="help-block"></span>
-	  </div>
+	  <!-- Values are set in books.js -->
+	  <%= f.hidden_field :title %>
+	  <%= f.hidden_field :author %>
+	  <%= f.hidden_field :description %>
+	  <%= f.hidden_field :pages %>
+	  <%= f.hidden_field :release_date %>
+	  <%= f.hidden_field :link %>
+	  <%= f.hidden_field :small_image %>
+	  <%= f.hidden_field :big_image %>
+
 	  <div class="form-group">
 	    <%= f.label :read, class: 'control-label' %><br>
 	    <%= f.check_box :read, class: 'form-control' %>
 	    <span class="help-block"></span>
 	  </div>
-
+	  <div class="form-group">
+	    <%= f.label :digital, class: 'control-label' %><br>
+	    <%= f.check_box :digital, class: 'form-control' %>
+	    <span class="help-block"></span>
+	  </div>
 	  <div class="actions">
 	    <%= f.submit class: 'btn btn-large btn-primary' %>
 	  </div>
-
 	<% end %>
 </div>

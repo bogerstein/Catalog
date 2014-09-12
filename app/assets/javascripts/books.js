@@ -7,7 +7,6 @@ $(document).ready(function(){
     $(event.data).render_form_errors( $.parseJSON(jqxhr.responseText) );
 
   });
-
 });
 
 (function($) {
@@ -61,63 +60,107 @@ function showResult(str) {
   //console.log(endpoint);
 
   $.get( encodeURI(endpoint), function( data ) {
-    // console.log(data);
+  // console.log(data);
 
-    text = "<table id=\"link-table\">";
-    for (i = 0; i < data["items"].length; i++) { 
-      text += "<tr><td id=\"rid\" style=\"display:none;\">";
-      // text += data["items"][i]["id"];
-      text += i;
-      text += "</td><td><img src=";
-      text += data["items"][i]["volumeInfo"]["imageLinks"]["thumbnail"];
-      text += " width=\"128\" height=\"192\"></td><td><p>";
-      text += data["items"][i]["volumeInfo"]["title"] + "(" + data["items"][i]["volumeInfo"]["publishedDate"] + ")";
-      text += "</p></td></tr>";
-    }
-    text += "</table>";
+  text = "<table id=\"link-table\" width=\"100%\">";
+  for (i = 0; i < data["items"].length; i++) { 
+    text += "<tr><td id=\"rid\" style=\"display:none;\">";
+    // text += data["items"][i]["id"];
+    text += i;
+    text += "</td><td><img src=";
+    text += data["items"][i]["volumeInfo"]["imageLinks"]["thumbnail"];
+    text += " width=\"128\" height=\"192\"></td><td><p>";
+    text += data["items"][i]["volumeInfo"]["title"] + "(" + data["items"][i]["volumeInfo"]["publishedDate"] + ")";
+    text += "</p></td></tr>";
+  }
+  text += "</table>";
 
-    document.getElementById("livesearch_results").innerHTML=text;
+  document.getElementById("livesearch_results").innerHTML=text;
 
-    $('#link-table').data('rawData',data);
+  $('#link-table').data('rawData',data);
 
-    // Apply a class on mouse over and remove it on mouse out.
-    $('#link-table tr').hover(function () {
-      $(this).toggleClass('highlight');
-    });
-
-    // Assign a click handler that grabs the URL 
-    // from the first cell and redirects the user.
-    $('#link-table tr').click(function () {
-      daterz = $('#link-table').data('rawData');
-      // console.log(daterz);
-      // console.log($(this));
-      rid = $(this).find('td#rid').text();
-      console.log(daterz["items"][rid]);
-
-      $("#book_title ").val(daterz["items"][rid]["volumeInfo"]["title"]);
-      $("#book_author ").val(daterz["items"][rid]["volumeInfo"]["authors"][0]);
-
-      $('#search').toggle( "slide" );
-      $('#createBook').toggle( "slide" );
-    });
-
+  // Apply a class on mouse over and remove it on mouse out.
+  $('#link-table tr').hover(function () {
+    $(this).toggleClass('highlight');
   });
+
+  // Assign a click handler that grabs the URL 
+  // from the first cell and redirects the user.
+  $('#link-table tr').click(function () {
+    modalState = "view";
+
+    daterz = $('#link-table').data('rawData');
+    console.log(daterz);
+    // console.log($(this));
+    rid = $(this).find('td#rid').text();
+    console.log(daterz["items"][rid]);
+
+
+    // http://www.librarything.com/api/thingISBN/9781781100295
+    // isbn = daterz["items"][rid]["volumeInfo"]["industryIdentifiers"][0]["identifier"];
+    // console.log("isbn: " + isbn)
+    //$.get( "http://www.librarything.com/api/thingISBN/9780804139038", function( data2 ) {
+    //  console.log(data2);
+    //});
+
+  //$.ajax({
+  //   url: "http://www.librarything.com/api/thingISBN/9781781100295",
+  //   xhrFields: {
+  //    withCredentials: true
+ // }
+  //}).done(function (data) {
+   // console.log(data);
+  //});
+
+
+    $("#book_title ").val(daterz["items"][rid]["volumeInfo"]["title"]);
+    $("#book_author ").val(daterz["items"][rid]["volumeInfo"]["authors"][0]);
+    $("#book_description ").val(daterz["items"][rid]["volumeInfo"]["description"]);
+    $("#book_pages ").val(daterz["items"][rid]["volumeInfo"]["pageCount"]);
+    $("#book_release_date ").val(daterz["items"][rid]["volumeInfo"]["publishedDate"]);
+    $("#book_link ").val(daterz["items"][rid]["selfLink"]);
+    $("#book_big_image ").val(daterz["items"][rid]["volumeInfo"]["imageLinks"]["thumbnail"]);
+    $("#book_small_image ").val(daterz["items"][rid]["volumeInfo"]["imageLinks"]["smallThumbnail"]);
+
+    $("#bookBigImage").attr('src', daterz["items"][rid]["volumeInfo"]["imageLinks"]["thumbnail"]);
+    $("#bookTitle").html(daterz["items"][rid]["volumeInfo"]["title"]);
+    $("#bookAuthor").html(daterz["items"][rid]["volumeInfo"]["authors"][0]);
+
+    $('#search').toggle( "slide" );
+    $('#createBook').toggle( "slide" );
+  });
+});
 }
 
-function hideModal() {
+function showModal() {
+  modalState = "search";
   $('#search_modal').on('hidden.bs.modal', function () {
+    console.log("hidden");
     document.getElementById("livesearch_query").value="";
     document.getElementById("livesearch_results").innerHTML="";
     document.getElementById("livesearch_results").style.border="0px";
 
+    if (modalState == "view") {
       $('#search').toggle( "slide" );
       $('#createBook').toggle( "slide" );
+    }
+
+    modalState = "hidden";
   });
+
+  document.getElementById('livesearch_query').focus();
 }
 
+function getBigImage() {
+  val = $("#book_big_image ").val();
+  console.log(val);
+}
 
-
-
+$(document).ready(function() {
+    $("#search_modal").on('shown.bs.modal', function() {
+        $('#livesearch_query').focus();
+    });
+});
 
 
 
